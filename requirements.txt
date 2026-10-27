@@ -1,0 +1,10 @@
+# Host environment: Jupyter + analysis (Docker track).
+# The NixNet track gets the same tools from flake.nix instead (nix develop).
+# Pin exact versions (==); add what your analysis needs.
+jupyterlab==4.6.4
+ipykernel==7.4.0
+nbconvert==7.17.2
+matplotlib==3.10.7
+
+# Same versions as the simulation image, so ENGINE=local debugging behaves the same
+-r docker/requirements-sim.txt

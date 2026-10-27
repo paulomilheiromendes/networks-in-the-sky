@@ -1,0 +1,4 @@
+# Only docker/ and ns3/ are needed to build the images
+*
+!docker/
+!ns3/

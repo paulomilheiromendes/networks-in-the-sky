@@ -1,0 +1,5 @@
+# Packages inside the Python simulation image (docker/py.Dockerfile).
+# Pin exact versions (==) so every run uses the same code.
+numpy==2.3.5
+pandas==2.3.3
+networkx==3.5

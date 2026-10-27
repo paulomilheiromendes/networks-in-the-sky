@@ -1,0 +1,10 @@
+# Environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.check/
+result
+result-*
+
+# Unfinished jobs (complete results in results/ ARE committed)
+results/**/*.partial.csv
